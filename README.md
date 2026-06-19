@@ -5,20 +5,24 @@ This project analyzes student performance data to identify factors affecting aca
 
 ## Project Structure
 
-student-performance-analysis/
-│
-├── README.md                           # Project overview and documentation
-├── student_performance_analysis.ipynb  # Main Jupyter notebook with analysis
-├── StudentsPerformance.csv             # Cleaned dataset
-│
-├── 📊 Visualizations
-│   ├── lunch_effect.png                # Impact of lunch type on performance
-│   ├── math_distribution.png           # Distribution of math scores
-│   ├── math_score_gender.png           # Average math score by gender
-│   ├── parent_education.png            # Impact of parental education on scores
-│   └── test_prep.png                   # Effect of test preparation on scores
-│
-└── LICENSE                             # MIT License (optional)
+| File/Folder | Description |
+|---|---|
+| 📄 **Documentation** | |
+| `README.md` | Project overview and documentation |
+| `LICENSE` | MIT License |
+| | |
+| 📓 **Notebook** | |
+| `student_performance_analysis.ipynb` | Main analysis notebook |
+| | |
+| 📊 **Data** | |
+| `StudentsPerformance.csv` | Cleaned dataset |
+| | |
+| 📈 **Visualizations** | |
+| `lunch_effect.png` | Impact of lunch type on performance |
+| `math_distribution.png` | Distribution of math scores |
+| `math_score_gender.png` | Average math score by gender |
+| `parent_education.png` | Impact of parental education on scores |
+| `test_prep.png` | Effect of test preparation on scores |
 
 ## Dataset
 - **Source**: StudentsPerformance.csv
