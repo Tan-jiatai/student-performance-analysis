@@ -4,7 +4,7 @@
 This project analyzes student performance data to identify factors affecting academic success. The dataset contains student scores in math, reading, and writing, along with demographic information.
 
 ## Project Structure
-## 📁 Project Structure
+## Project Structure
 
 | File/Folder | Description |
 |-------------|-------------|
