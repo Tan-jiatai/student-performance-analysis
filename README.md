@@ -1,14 +1,30 @@
-# 📊 Student Performance Data Analysis
+# Student Performance Data Analysis
 
-## 📝 Project Overview
+## Project Overview
 This project analyzes student performance data to identify factors affecting academic success. The dataset contains student scores in math, reading, and writing, along with demographic information.
 
-## 📁 Dataset
+## Project Structure
+student-performance-analysis/
+│
+├── 📄 README.md                           ← Project overview
+├── 📄 student_performance_analysis.ipynb  ← Main analysis
+├── 📄 StudentsPerformance.csv             ← Dataset
+│
+├── 📊 Visualizations (5 images)
+│   ├── lunch_effect.png
+│   ├── math_distribution.png
+│   ├── math_score_gender.png
+│   ├── parent_education.png
+│   └── test_prep.png
+│
+└── LICENSE
+
+## Dataset
 - **Source**: StudentsPerformance.csv
 - **Features**: Gender, Race/Ethnicity, Parental Education, Lunch Type, Test Preparation Course
 - **Target Variables**: Math, Reading, and Writing Scores
 
-## 🔍 Key Analyses Performed
+##  Key Analyses Performed
 1. **Score Statistics**: Calculated average, max, and min scores for each subject
 2. **Gender Analysis**: Compared math performance between male and female students
 3. **Parental Education**: Examined the impact of parental education on math scores
@@ -16,7 +32,7 @@ This project analyzes student performance data to identify factors affecting aca
 5. **Lunch Program**: Investigated how lunch type affects student performance
 6. **Top Performers**: Identified the 10 highest-performing students
 
-## 📈 Visualizations
+## Visualizations
 The project includes several visualizations:
 - Average math score by gender
 - Math score distribution
@@ -24,7 +40,7 @@ The project includes several visualizations:
 - Effect of test preparation
 - Lunch type impact on performance
 
-## 🛠️ Technologies Used
+## Technologies Used
 - Python 3
 - Pandas (Data manipulation)
 - Matplotlib (Data visualization)
