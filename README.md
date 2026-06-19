@@ -25,9 +25,22 @@ This project analyzes student performance data to identify factors affecting aca
 | `test_prep.png` | Effect of test preparation on scores |
 
 ## Dataset
-- **Source**: StudentsPerformance.csv
-- **Features**: Gender, Race/Ethnicity, Parental Education, Lunch Type, Test Preparation Course
-- **Target Variables**: Math, Reading, and Writing Scores
+
+**Source: Kaggle — Students Performance in Exams**  
+[https://www.kaggle.com/datasets/spscientist/students-performance-in-exams](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams)
+
+| Variable | Type | Description |
+|---|---|---|
+| `gender` | Categorical | Student's gender |
+| `race/ethnicity` | Categorical | Ethnic group (A–E) |
+| `parental level of education` | Ordinal | Parent's highest education level |
+| `lunch` | Categorical | Lunch type (standard / free/reduced) |
+| `test preparation course` | Categorical | Completed test prep course (yes / no) |
+| `math score` | Numerical | Math score (0–100) |
+| `reading score` | Numerical | Reading score (0–100) |
+| `writing score` | Numerical | Writing score (0–100) |
+
+The dataset contains **1,000 student records** with demographic information and test scores.
 
 ##  Key Analyses Performed
 1. **Score Statistics**: Calculated average, max, and min scores for each subject
