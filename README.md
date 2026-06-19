@@ -4,20 +4,19 @@
 This project analyzes student performance data to identify factors affecting academic success. The dataset contains student scores in math, reading, and writing, along with demographic information.
 
 ## Project Structure
-student-performance-analysis/
-│
-├── 📄 README.md                           ← Project overview
-├── 📄 student_performance_analysis.ipynb  ← Main analysis
-├── 📄 StudentsPerformance.csv             ← Dataset
-│
-├── 📊 Visualizations (5 images)
-│   ├── lunch_effect.png
-│   ├── math_distribution.png
-│   ├── math_score_gender.png
-│   ├── parent_education.png
-│   └── test_prep.png
-│
-└── LICENSE
+## 📁 Project Structure
+
+| File/Folder | Description |
+|-------------|-------------|
+| `README.md` | Project overview and documentation |
+| `student_performance_analysis.ipynb` | Main analysis notebook |
+| `StudentsPerformance.csv` | Cleaned dataset |
+| `lunch_effect.png` | Impact of lunch type on performance |
+| `math_distribution.png` | Distribution of math scores |
+| `math_score_gender.png` | Average math score by gender |
+| `parent_education.png` | Impact of parental education on scores |
+| `test_prep.png` | Effect of test preparation on scores |
+| `LICENSE` | MIT License |
 
 ## Dataset
 - **Source**: StudentsPerformance.csv
